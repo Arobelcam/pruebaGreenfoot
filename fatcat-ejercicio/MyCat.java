@@ -54,5 +54,10 @@ public class MyCat extends Cat
        {
            shoutHooray();
        }
+       sleep(2);
+       if (isBored())
+       {
+           shoutHooray();
+       }
 }
 }
